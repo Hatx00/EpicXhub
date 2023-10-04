@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0;url=https://github.com/Hatx00/EpicXhub/blob/main/redirect.html?code=COLOQUE_AQUI_O_CODIGO_DE_AUTORIZACAO">
+  <meta http-equiv="refresh" content="0;url=https://github.com/Hatx00/EpicXhub/blob/main/redirect.html?code=CODIGO_DE_AUTORIZACAO">
 </head>
 <body>
   Redirecionando...
@@ -10,10 +10,10 @@
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
 
-    // Redirecionar de volta para o seu aplicativo com o código de autorização
+    // Redirecionar de volta para o aplicativo com o código de autorização
     if (code) {
       // Substitua esta URL pela URL de redirecionamento para o seu aplicativo
-      const redirectUrl = "URL_DO_SEU_APLICATIVO?code=" + code;
+      const redirectUrl = "URL_DO_APLICATIVO?code=" + code;
       window.location.href = redirectUrl;
     }
   </script>
